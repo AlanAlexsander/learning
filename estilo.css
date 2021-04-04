@@ -1,0 +1,31 @@
+body {
+    background: black;
+    font: normal 15px Arial;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background:slategray;
+    border-radius: 10px; /* deixa as bordas arredondadas*/
+    padding: 15px;
+    width: 250px;
+    margin: auto; /*junto com WIDTH, centraliza tudo*/
+    box-shadow: 5px 5px 10px yellow;
+}
+
+div#entrada {
+    text-align: center;
+}
+
+div#botoes {
+    text-align: center;
+}
+
+.keys {
+    width:30px;
+    height: 25px;
+}

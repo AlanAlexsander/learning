@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <h1>Alan's Calculator </h1>
+
+    <section>
+        <div id="entrada">
+            <p>Insert numbers below</p>
+            <input type="number" id="ent" class="ent" placeholder="0" step="0.01">
+        </div>
+
+        <div id="botoes">
+            <p><button id="clear" class="keys" onclick="clearAll()">C</button> <input type="button" id="inv" class="keys" value="+/-" onclick="inversao()"> <input type="button" id="per" class="keys" value="%" onclick="porcentagem()"> <input type="button" id="divi" class="keys" value="/" onclick="divisao()"> </p>
+            <p><input type="button" id="n1" class="keys" value="1" onclick="add1()"> <input type="button" id="n2" class="keys" value="2" onclick="add2()"> <input type="button" id="n3" class="keys" value="3" onclick="add3()"> <input type="button" id="mul" class="keys" value="X" onclick="multiplicacao()" > </p>
+            <p><input type="button" id="n4" class="keys" value="4" onclick="add4()"> <input type="button" id="n5" class="keys" value="5" onclick="add5()"> <input type="button" id="n6" class="keys" value="6" onclick="add6()"> <input type="button" id="sub" class="keys" value="-" onclick="subtracao()"> </p>
+            <p><input type="button" id="n7" class="keys" value="7" onclick="add7()"> <input type="button" id="n8" class="keys" value="8" onclick="add8()"> <input type="button" id="n9" class="keys" value="9" onclick="add9()"> <input type="button" id="adi" class="keys" value="+" onclick="adicao()"> </p>
+            <p><input type="button" id="n0" class="keys" value="0" onclick="add0()"> <input type="button" id="pon" class="keys" value="." onclick="ponto()"> <input type="button" id="res" class="keys" value="=" onclick="igual()"> </p>
+        </div>
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+</html>
